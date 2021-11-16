@@ -1,4 +1,4 @@
-FROM golang:1.16-alpine
+FROM golang:1.17.3-alpine
 
 ENV listenPort=2113
 ENV remootioIP=192.168.1.1:8080
